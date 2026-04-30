@@ -1,0 +1,19 @@
+{
+  "name": "beyblade-tg-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot server that reads note data from a Google Sheet.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
